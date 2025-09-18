@@ -15,10 +15,8 @@
     "jsx": "preserve",
     "incremental": true,
 
-    // 👇 Añadir estas dos líneas
     "baseUrl": ".",
     "paths": { "@/*": ["./*"] }
-
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
