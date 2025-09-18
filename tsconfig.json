@@ -14,7 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "plugins": []
+
+    // 👇 Añadir estas dos líneas
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] }
+
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
